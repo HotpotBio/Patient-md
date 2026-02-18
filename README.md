@@ -25,6 +25,15 @@ The framework uses a system prompt to transform user-provided clinical data into
 - Version: v1.0.0
 
 
+## Contributing
+
+- Use the reference system prompt above with any AI assistant to draft a Patient.md guided workflow for a specific condition.
+- Provide clinical data by uploading files and/or pasting content directly into the assistant.
+- Share large data in stages: for example, start with lightweight text (diagnosis, summary, and medications); then key reports (pathology, genomics, imaging reports); finally, large files (images or long reports).
+- When finished uploading, confirm the Patient.md specification (text or file) before manifest generation; if needed, fetch the latest spec online and upload it.
+- Run the prompt + specification + clinical inputs to generate a Patient.md manifest from the provided data.
+
+
 ## Citation
 
 If you use this work, please cite:
