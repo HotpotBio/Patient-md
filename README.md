@@ -1,7 +1,6 @@
 # Patient.md: Framework for AI-Augmented Second Opinions and Treatment Exploration
 
-Patients seeking second opinions often hit a wall of fragmented records and specialist bottlenecks that make it hard to ask the right questions. Patient.md proposes a single, AI-friendly Markdown case file (with optional traceability to source records) that lets patients and reviewers create tailored case versions for faster, more targeted AI-assisted review and treatment exploration.
-
+Current approaches to organizing patient data focus on machine-to-machine exchange or human-to-human handoff rather than joint human-AI investigation. Instead of structuring patient data for human consumption or machine-to-machine communication, Patient.md proposes a framework for consolidating medical data into a single AI-friendly file. This may allow patients to more easily seek second opinions and explore treatment options with AI assistants like ChatGPT and Gemini.
 
 ## Abstract
 
@@ -25,13 +24,18 @@ The framework uses a system prompt to transform user-provided clinical data into
 - Version: v1.0.0
 
 
-## Contributing
+## How to Use Patient.md
 
 - Use the reference system prompt above with any AI assistant to draft a Patient.md guided workflow for a specific condition.
 - Provide clinical data by uploading files and/or pasting content directly into the assistant.
 - Share large data in stages: for example, start with lightweight text (diagnosis, summary, and medications); then key reports (pathology, genomics, imaging reports); finally, large files (images or long reports).
-- When finished uploading, confirm the Patient.md specification (text or file) before manifest generation; if needed, fetch the latest spec online and upload it.
+- When finished uploading data, upload or paste in the Patient.md specification.
 - Run the prompt + specification + clinical inputs to generate a Patient.md manifest from the provided data.
+
+## How to Help
+
+- Create methods (e.g., OpenClaw integration) to automate the creation of Patient.md manifests.
+- Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer or triple-negative breast cancer.
 
 
 ## Citation
@@ -43,13 +47,15 @@ If you use this work, please cite:
 ```bibtex
 @article{patientmd2026,
   title        = {Patient.md: Framework for AI-Augmented Second Opinions and Treatment Exploration},
-  author       = {Hu, Clarence C. and Cardona, Juan J. and Lee, Karel and Danish, Ali},
+  author       = {Hu, Clarence C. and Cardona, Juan J. and Lee, Karel and Danish, Ali and Kamtam, Devanish N.},
   year         = {2026},
   publisher    = {Hotpot.ai},
   address      = {Palo Alto, California, USA},
   note         = {
-    1. Hotpot.ai, Palo Alto, California, USA.
-    2. Department of Neurosurgery, Stanford University School of Medicine, Stanford, California, USA.
+    Affiliations:
+      1. Hotpot.ai, Palo Alto, California, USA.
+      2. Department of Neurosurgery, Stanford University School of Medicine, Stanford, California, USA.
+      3. Division of Thoracic Surgery, Department of Cardiothoracic Surgery, Stanford University School of Medicine, Stanford, California, USA
     Corresponding author: clarence@hotpot.ai
   }
 }
