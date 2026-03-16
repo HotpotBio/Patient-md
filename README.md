@@ -1,20 +1,21 @@
-# Patient.md: Framework for AI-Augmented Second Opinions and Treatment Exploration
+# Patient.md: Framework to Organize Medical Data for AI Assistants
 
-Current approaches to organizing patient data focus on machine-to-machine exchange or human-to-human handoff rather than joint human-AI investigation. Instead of structuring patient data for human consumption or machine-to-machine communication, Patient.md proposes a framework for consolidating medical data into a single AI-friendly file. This may allow patients to more easily seek second opinions and explore treatment options with AI assistants like ChatGPT and Gemini.
+Current approaches to organizing patient data are not designed for AI assistants like GPT and Gemini. Instead of structuring patient data for human-only consumption or machine-to-machine communication, Patient.md proposes a framework for consolidating medical data into a single file designed for AI context windows and joint human-AI collaboration. This may allow patients to more easily understand medical conditions, share information for second opinions, and explore treatment options.
 
 ## Abstract
 
 ### Background
-Poorly understood conditions and specialist shortages may compel patients to take agency over their care, seeking second opinions or exploring treatment options on their own. Yet this journey is often hindered by fragmented medical records and the need for expert interpretation across specialties such as pathology and disease biology. Clinicians, family members, and patient advocates must navigate volumes of data, with no systematic way to tailor case review or ask targeted questions.
+Poorly understood conditions and specialist shortages may compel patients to take agency over their care, yet seeking second opinions and exploring treatment options can be challenging. This journey is often slowed by scattered medical records, repeated explanations of the same history, and volumes of clinical data that can overwhelm both human reviewers and AI assistants.
 
 ### Methods
-We propose Patient.md, a framework for artificial intelligence (AI)-augmented second opinions and treatment exploration. Patient.md defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data such as molecular testing in cancer care. An optional registry links summaries to patient records for traceability and efficient retrieval in AI assistant workflows. The framework enables tailored files for different reviewers, supporting local or cloud operation, and provides a system prompt for drafting Patient.md files via guided workflows.
+We propose Patient.md, a framework to organize medical data for artificial intelligence (AI) assistants. Patient.md defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data such as molecular testing in cancer care. An optional registry links summaries to patient records for traceability and efficient retrieval in AI assistant workflows. The framework enables tailored files for different reviewers, supports local or cloud operation, and provides a system prompt for drafting Patient.md files via guided workflows.
 
 ### Results
-We demonstrate Patient.md with a lung cancer patient sharing three case versions: minimal, public-facing for tracking and trial matching, and detailed for deeper investigation.
+We demonstrate Patient.md with a lung cancer patient sharing three case versions: minimal, public facing for trial matching, and detailed for deeper investigation.
 
 ### Conclusion
-By consolidating medical data into a single AI-friendly file, Patient.md may enable patients to more easily seek second opinions and explore treatment options with AI assistants like ChatGPT and Gemini. The framework allows AI assistants to act as personalized tutors and promote patient autonomy, lowering the barrier for understanding the condition, asking targeted questions, and gaining informed perspectives.
+By consolidating medical data into one structured file designed for AI assistant context windows, Patient.md can simplify case sharing for second opinions and promote patient autonomy. It may further enable AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients. This structured format may also lay a foundation for AI agent workflows such as case monitoring and clinical trial matching.
+
 
 
 ## Reference System Prompt
