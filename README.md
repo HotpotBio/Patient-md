@@ -33,6 +33,38 @@ The framework uses a system prompt to transform user-provided clinical data into
 - When finished uploading data, upload or paste in the Patient.md specification.
 - Run the prompt + specification + clinical inputs to generate a Patient.md manifest from the provided data.
 
+
+## Agent Integrations
+
+This repository includes integration files for supported LLM agents.
+
+### Claude
+
+The Patient-md Claude skill file is available at:
+
+[`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
+
+#### How to use it
+
+Copy the skill file into your Claude skills folder.
+
+For a single project, place it at:
+
+`.claude/skills/patient-md/SKILL.md`
+
+For all your projects, place it at:
+
+`~/.claude/skills/patient-md/SKILL.md`
+
+### Using the skill
+
+You can invoke it with:
+
+`/patient-md`
+
+Or ask Claude to perform a task related to the skill, and Claude may load it automatically when appropriate.
+
+
 ## How to Help
 
 - Create methods (e.g., OpenClaw integration) to automate the creation of Patient.md manifests.
