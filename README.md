@@ -36,7 +36,7 @@ The framework uses a system prompt to transform user-provided clinical data into
 
 ## Agent Integrations
 
-This repository includes integration files for supported LLM agents.
+This repository includes integration files for supported AI agents.
 
 ### Claude
 
@@ -44,25 +44,31 @@ The Patient-md Claude skill file is available at:
 
 [`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
 
+#### How to add it in Claude
+
+In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, then upload the `SKILL.md` file from this repository and enable it.
+
 #### How to use it
 
-Copy the skill file into your Claude skills folder.
+Once enabled, Claude may use this skill automatically when your request is related to **Patient.md** workflows or tasks covered by the skill.
 
-For a single project, place it at:
+You can also trigger it explicitly with:
 
-`.claude/skills/patient-md/SKILL.md`
+`/patient-md-architect`
 
-For all your projects, place it at:
+### GPT
 
-`~/.claude/skills/patient-md/SKILL.md`
+To use the Patient-md custom GPT, open:
 
-### Using the skill
+[`Patient-md Custom GPT`](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
 
-You can invoke it with:
+#### What it does
 
-`/patient-md`
+This custom GPT helps transform user-provided clinical data into one or more **Patient.md manifests**.
 
-Or ask Claude to perform a task related to the skill, and Claude may load it automatically when appropriate.
+#### How to use it
+
+Open the GPT link above and provide the relevant clinical data, notes, or structured medical details you want converted into Patient.md manifest format.
 
 
 ## How to Help
