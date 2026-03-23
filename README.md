@@ -1,91 +1,74 @@
 # Patient.md: Framework to Organize Medical Data for AI Assistants
 
-Current approaches to organizing patient data are not designed for AI assistants like GPT and Gemini. Instead of structuring patient data for human-only consumption or machine-to-machine communication, Patient.md proposes a framework for consolidating medical data into a single file designed for AI context windows and joint human-AI collaboration. This may allow patients to more easily understand medical conditions, share information for second opinions, and explore treatment options.
+<br>
 
-## Abstract
+Patient.md is a framework to organize medical data for artificial intelligence (AI) assistants. It defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data.
 
-### Background
-Poorly understood conditions and specialist shortages may compel patients to take agency over their care, yet seeking second opinions and exploring treatment options can be challenging. This journey is often slowed by scattered medical records, repeated explanations of the same history, and volumes of clinical data that can overwhelm both human reviewers and AI assistants.
+By structuring medical data into one file designed for AI assistant context windows, Patient.md can simplify case sharing for second opinions and promote patient autonomy. It may further enable AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients.
 
-### Methods
-We propose Patient.md, a framework to organize medical data for artificial intelligence (AI) assistants. Patient.md defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data such as molecular testing in cancer care. An optional registry links summaries to patient records for traceability and efficient retrieval in AI assistant workflows. The framework enables tailored files for different reviewers, supports local or cloud operation, and provides a system prompt for drafting Patient.md files via guided workflows.
+Finally, the Patient.md format creates a foundation for AI agent workflows such as case monitoring and clinical trial matching.
 
-### Results
-We demonstrate Patient.md with a lung cancer patient sharing three case versions: minimal, public facing for trial matching, and detailed for deeper investigation.
+Note: Patient.md is for educational and productivity purposes only. It cannot offer medical advice and cannot replace clinical judgment.
 
-### Conclusion
-By consolidating medical data into one structured file designed for AI assistant context windows, Patient.md can simplify case sharing for second opinions and promote patient autonomy. It may further enable AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients. This structured format may also lay a foundation for AI agent workflows such as case monitoring and clinical trial matching.
+<br>
 
+---
 
+<br>
 
-## Reference System Prompt
-The framework uses a system prompt to transform user-provided clinical data into one or more Patient.md manifests via guided workflows.
+## 🚀 Quick Start
 
-- Prompt: [`prompts/system_prompt.md`](prompts/system_prompt.md)
-- Version: v1.0.0
+Choose an AI assistant, share medical data, and the agent will automatically generate your `PATIENT.md` manifest. All are free to use.
 
+### 1. Custom GPT
+* **Link:** [Patient-md Custom GPT](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
+* **How to use:** Open the link, then share your medical data (such as notes or clinical reports). The custom GPT transforms this data into one or more Patient.md manifests.
 
-## How to Use Patient.md
+<br>
 
-- Use the reference system prompt above with any AI assistant to draft a Patient.md guided workflow for a specific condition.
-- Provide clinical data by uploading files and/or pasting content directly into the assistant.
-- Share large data in stages: for example, start with lightweight text (diagnosis, summary, and medications); then key reports (pathology, genomics, imaging reports); finally, large files (images or long reports).
-- When finished uploading data, upload or paste in the Patient.md specification.
-- Run the prompt + specification + clinical inputs to generate a Patient.md manifest from the provided data.
+### 2. Claude Skill
+* **File:** [`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
+* **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload our `SKILL.md` file. Then type `/patient-md-architect` in your chat.
 
+<br>
 
-## Agent Integrations
+---
 
-This repository includes integration files for supported AI agents.
+<br>
 
-### Claude
+## 📖 Why Patient.md?
 
-The Patient-md Claude skill file is available at:
+Current approaches to organizing patient data are not designed for AI assistants like GPT and Gemini. Scattered medical records and volumes of clinical data can overwhelm both human reviewers and AI assistants. Patient.md addresses this by:
 
-[`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
+* **Consolidating Data:** Combines standard clinical details and complex modules (like molecular testing) into one file designed for AI context windows.
+* **Tailored Understanding:** Tailors understanding of conditions for different people, adapting information depth to someone's background.
+* **Maintaining Traceability:** Uses an optional registry to link summaries directly to source patient records.
 
-#### How to add it in Claude
+<br>
 
-In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, then upload the `SKILL.md` file from this repository and enable it.
+---
 
-#### How to use it
+<br>
 
-Once enabled, Claude may use this skill automatically when your request is related to **Patient.md** workflows or tasks covered by the skill.
+## 🤝 How to Help
 
-You can also trigger it explicitly with:
+* Create methods (e.g., OpenClaw integration) to automate the creation of Patient.md manifests.
+* Create automated agents and pipelines to help patients explore the treatment landscape and stay current on the literature.
+* Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer, triple-negative breast cancer, or Alzheimer’s disease.
 
-`/patient-md-architect`
+<br>
 
-### GPT
+---
 
-To use the Patient-md custom GPT, open:
+<br>
 
-[`Patient-md Custom GPT`](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
-
-#### What it does
-
-This custom GPT helps transform user-provided clinical data into one or more **Patient.md manifests**.
-
-#### How to use it
-
-Open the GPT link above and provide the relevant clinical data, notes, or structured medical details you want converted into Patient.md manifest format.
-
-
-## How to Help
-
-- Create methods (e.g., OpenClaw integration) to automate the creation of Patient.md manifests.
-- Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer or triple-negative breast cancer.
-
-
-## Citation
+## 📚 Citation
 
 If you use this work, please cite:
 
-### BibTeX
-
 ```bibtex
 @article{patientmd2026,
-  title        = {Patient.md: Framework for AI-Augmented Second Opinions and Treatment Exploration},
+  title        = {Patient.md: Framework to Organize Medical Data for AI Assistants},
   author       = {Hu, Clarence C. and Cardona, Juan J. and Lee, Karel and Danish, Ali and Kamtam, Devanish N.},
   year         = {2026},
   publisher    = {Hotpot.ai},
