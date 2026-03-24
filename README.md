@@ -1,7 +1,5 @@
 # Patient.md: Framework to Organize Medical Data for AI Assistants
 
-<br>
-
 Patient.md is a framework to organize medical data for artificial intelligence (AI) assistants. It defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data.
 
 By structuring medical data into one file designed for AI assistant context windows, Patient.md can simplify case sharing for second opinions and promote patient autonomy. It may further enable AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients.
@@ -10,11 +8,6 @@ Finally, the Patient.md format creates a foundation for AI agent workflows such 
 
 Note: Patient.md is for educational and productivity purposes only. It cannot offer medical advice and cannot replace clinical judgment.
 
-<br>
-
----
-
-<br>
 
 ## 🚀 Quick Start
 
@@ -24,17 +17,10 @@ Choose an AI assistant, share medical data, and the agent will automatically gen
 * **Link:** [Patient-md Custom GPT](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
 * **How to use:** Open the link, then share your medical data (such as notes or clinical reports). The custom GPT transforms this data into one or more Patient.md manifests.
 
-<br>
-
 ### 2. Claude Skill
 * **File:** [`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
 * **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload our `SKILL.md` file. Then type `/patient-md-architect` in your chat.
 
-<br>
-
----
-
-<br>
 
 ## 📖 Why Patient.md?
 
@@ -44,11 +30,6 @@ Current approaches to organizing patient data are not designed for AI assistants
 * **Tailored Understanding:** Tailors understanding of conditions for different people, adapting information depth to someone's background.
 * **Maintaining Traceability:** Uses an optional registry to link summaries directly to source patient records.
 
-<br>
-
----
-
-<br>
 
 ## 🤝 How to Help
 
@@ -56,11 +37,6 @@ Current approaches to organizing patient data are not designed for AI assistants
 * Create automated agents and pipelines to help patients explore the treatment landscape and stay current on the literature.
 * Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer, triple-negative breast cancer, or Alzheimer’s disease.
 
-<br>
-
----
-
-<br>
 
 ## 📚 Citation
 
