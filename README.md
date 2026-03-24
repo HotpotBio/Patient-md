@@ -11,7 +11,7 @@ Note: Patient.md is for educational and productivity purposes only. It cannot of
 
 ## 🚀 Quick Start
 
-Choose an AI assistant, share medical data, and the agent will automatically generate your `PATIENT.md` manifest. All are free to use.
+Choose an AI assistant and share medical data. Patient.md is free to use.
 
 ### 1. Custom GPT
 * **Link:** [Patient-md Custom GPT](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
