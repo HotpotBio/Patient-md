@@ -24,10 +24,10 @@ Choose an AI assistant and share medical data. Patient.md is free to use.
 
 ## 📖 Why Patient.md?
 
-Current approaches to organizing patient data are not designed for AI assistants like GPT, Claude, and Gemini. Scattered medical records and volumes of clinical data can overwhelm both human reviewers and AI assistants. Patient.md addresses this by:
+Current methods of organizing patient data are not designed for AI assistants like GPT, Claude, and Gemini. Scattered medical records and volumes of clinical data can overwhelm both human reviewers and AI assistants. Patient.md addresses this by:
 
 * **Consolidating Data:** Combines standard clinical details and complex modules (like molecular testing) into one file designed for AI context windows.
-* **Tailoring Explanations:** Tailors understanding of conditions for different people, adapting information depth to someone's background.
+* **Personalizing Explanations:** Tailors understanding of conditions for different people, adapting information depth to someone's background.
 * **Maintaining Traceability:** Uses an optional registry to link summaries directly to source patient records.
 
 
