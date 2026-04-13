@@ -38,7 +38,7 @@ Current methods of organizing patient data are not designed for AI assistants li
 * Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer, triple-negative breast cancer, or Alzheimer’s disease.
 
 ## Paper
-[Patient.md](https://hotpot.ai/Patient.md.pdf)
+[Patient.md: Framework to Organize Medical Data for AI Assistants](https://hotpot.ai/Patient.md.pdf)
 
 ## 📚 Citation
 
