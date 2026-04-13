@@ -37,6 +37,8 @@ Current methods of organizing patient data are not designed for AI assistants li
 * Create automated agents and pipelines to help patients explore the treatment landscape and stay current on the literature.
 * Create prompts and workflows for specific conditions, such as never-smoker non-small cell lung cancer, triple-negative breast cancer, or Alzheimer’s disease.
 
+## Paper
+[https://hotpot.ai/Patient.md.pdf](Patient.md)
 
 ## 📚 Citation
 
