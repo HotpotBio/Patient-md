@@ -20,7 +20,7 @@ Choose an AI assistant and share medical data.
 * **How to use:** Open the link, then share your medical data (such as notes or clinical reports). The custom GPT transforms this data into one or more Patient.md manifests.
 
 ### 2. Claude Skill
-* **File:** [Claude SKILL.md](agents/claude/patient-md/SKILL.md)
+* **File:** [Patient.md SKILL.md](agents/claude/patient-md/SKILL.md)
 * **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload the `SKILL.md` file. Then type `/patient-md` in your chat.
 
 
