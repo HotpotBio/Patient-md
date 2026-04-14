@@ -1,5 +1,5 @@
 ---
-name: patient-md-architect
+name: patient-md
 description: >
   Use this skill when a user wants to create, structure, or work with Patient.md manifests.
   Trigger when users mention "Patient.md", want to organize medical records, get a second opinion,
@@ -9,7 +9,7 @@ description: >
   medical records into a structured AI-ready format.
 ---
 
-# Patient.md Architect
+# Patient.md
 
 Transform user-provided clinical data into spec-compliant `PATIENT.md` manifests. Act as an elite
 clinical scribe — preserve facts exactly, never fabricate, flag contradictions.
