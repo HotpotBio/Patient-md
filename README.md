@@ -11,15 +11,17 @@ Note: Patient.md is for educational and productivity purposes only. It cannot of
 
 ## 🚀 Quick Start
 
-Choose an AI assistant and share medical data. Patient.md is free to use.
+Patient.md is free to use.
+
+Choose an AI assistant and share medical data. 
 
 ### 1. Custom GPT
-* **Link:** [Patient-md Custom GPT](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
+* **Link:** [Patient.md Custom GPT](https://chatgpt.com/g/g-69b7376d9d008191a097dab45aa5c995-patient-md)
 * **How to use:** Open the link, then share your medical data (such as notes or clinical reports). The custom GPT transforms this data into one or more Patient.md manifests.
 
 ### 2. Claude Skill
-* **File:** [`agents/claude/patient-md/SKILL.md`](agents/claude/patient-md/SKILL.md)
-* **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload our `SKILL.md` file. Then type `/patient-md-architect` in your chat.
+* **File:** [Claude SKILL.md](agents/claude/patient-md/SKILL.md)
+* **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload the `SKILL.md` file. Then type `/patient-md-architect` in your chat.
 
 
 ## 📖 Why Patient.md?
