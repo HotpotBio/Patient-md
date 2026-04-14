@@ -21,7 +21,7 @@ Choose an AI assistant and share medical data.
 
 ### 2. Claude Skill
 * **File:** [Claude SKILL.md](agents/claude/patient-md/SKILL.md)
-* **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload the `SKILL.md` file. Then type `/patient-md-architect` in your chat.
+* **How to use:** In Claude, go to **Customize** → **Create new skill** → **Upload a skill**, and upload the `SKILL.md` file. Then type `/patient-md` in your chat.
 
 
 ## 📖 Why Patient.md?
