@@ -1,8 +1,8 @@
 # Patient.md: Framework to Organize Medical Data for AI Assistants
 
-Patient.md is a framework to organize medical data for artificial intelligence (AI) assistants. It defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data.
+Patient.md simplifies case sharing for second opinions, promotes patient autonomy, and provides a foundation for clinical trial matching by providing a framework to organize medical data for AI assistants. The framework defines a schema for representing cases as a single Markdown file comprising standard clinical details and condition-specific data.
 
-By structuring medical data into one file designed for AI assistant context windows, Patient.md can simplify case sharing for second opinions and promote patient autonomy. It may further enable AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients.
+By structuring medical data into one file designed for AI assistant context windows, Patient.md simplifies case sharing for second opinions and enables AI assistants to act as personalized tutors, lowering barriers to case understanding and treatment exploration for both physicians and patients.
 
 Finally, the Patient.md format creates a foundation for AI agent workflows such as case monitoring and clinical trial matching.
 
